@@ -1,4 +1,6 @@
-all: mipt-thesis-bs.cls mipt-thesis.sty thesis.tex
+all: mipt-thesis-bs.cls mipt-thesis.sty thesis.tex thesis.bib
+	pdflatex thesis.tex
+	biber thesis
 	pdflatex thesis.tex
 
 clean:
