@@ -228,6 +228,7 @@
   \tableofcontents
   \pagestyle{plain}
   \pagenumbering{arabic}
+  \setcounter{page}{2}
 }
 
 \renewcommand{\@makechapterhead}[1]{%

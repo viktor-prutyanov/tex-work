@@ -7,10 +7,40 @@
     address = "Санкт-Петербург",
 }
 
+@book{t2,
+    author = "Таненбаум Э., Бос Х.",
+    title = "Современные операционные системы, 4-е изд.",
+    year = "2015",
+    pages = "95--98",
+    isbn = "978-5-496-01395-6",
+    address = "Санкт-Петербург",
+}
+
+@manual{im,
+    title = "Intel 64 and IA-32 Architectures Software Developer’s Manual, Volume 3C: System Programming Guide, Part 3",
+    organization = "Intel Corporation",
+    url = "https://www.intel.com/content/dam/www/public/us/en/documents/manuals/64-ia-32-architectures-software-developer-vol-3c-part-3-manual.pdf",
+    year = "2016",
+    month = "September",
+}
+
+@online{qemu-kvm-arch,
+    title = "KVM Architecture Overview",
+    url = "https://vmsplice.net/~stefan/qemu-kvm-architecture-2015.pdf",
+    author = "Hajnoczi S."
+}
+
 @online{qemu-ibm,
     title = "Эмуляция систем с помощью QEMU",
     url = "https://www.ibm.com/developerworks/ru/library/l-qemu/index.html",
     author = "Джонс М."
+}
+
+@online{kvm1,
+    title="KVM for Server Virtualization: An Open Source Solution Comes of Age",
+    url = "https://cs.nyu.edu/courses/fall14/CSCI-GA.3033-010/kvm4server.pdf",
+    year = "2011",
+    author = "Chen G., Gillen A."
 }
 
 @online{qemu-gdb,
@@ -25,7 +55,7 @@
 
 @article{qemu-bellard,
     title = "QEMU, a Fast and Portable Dynamic Translator",
-    author = "Fabrice Bellard",
+    author = "Bellard F.",
     year = "2005",
     journal = "USENIX Annual Technical Conference",
     url = "https://www.usenix.org/legacy/event/usenix05/tech/freenix/full_papers/bellard/bellard.pdf",
@@ -43,12 +73,12 @@
 
 @online{win10-struct,
     title = "Windows 10 Internal Kernel Structures",
-    url = "http://www.tssc.de/winint/",
+    url = "http://www.tssc.de/winint/Win10_16299_ntoskrnl/_KPRCB.htm",
 }
 
 @online{kprcb,
     title = "KPRCB",
-    author = "Geoff Chappell",
+    author = "Chappell G.",
     url = "http://geoffchappell.com/studies/windows/km/ntoskrnl/structs/kprcb/index.htm",
 }
 
@@ -82,7 +112,7 @@
 }
 
 @online{lpblog,
-    author = "Ladi Prosek",
+    author = "Prosek L.",
     title = "Extracting Windows VM crash dumps",
     url = "https://ladipro.wordpress.com/2017/01/06/extracting-windows-vm-crash-dumps/",
 }
@@ -97,8 +127,33 @@
     url = "https://searchcode.com/file/10186296/base/Windows/Inc/Dump.h",
 }
 
+@online{kcpts,
+    title = "Crash dump и KeCapturePersistentThreadState",
+    url = "https://habr.com/post/40504/",
+}
+
 @online{livekd-hv,
-    author = "Mark Russinovich",
+    author = "Russinovich M.",
     title = "LiveKd for Virtual Machine Debugging",
-    url = "https://blogs.technet.microsoft.com/markrussinovich/2010/10/09/livekd-for-virtual-machine-debugging/",
+    url = "https://blogs.technet.microsoft.com/markrussinovich/2010/10/09/livekd-for-virtual-machine-debugging/"
+}
+
+@online{dumphowto,
+    title = "How to generate a kernel or a complete memory dump file in Windows Server 2008 and Windows Server 2008 R2",
+    url = "https://support.microsoft.com/en-us/help/969028/how-to-generate-a-kernel-or-a-complete-memory-dump-file-in-windows-ser"
+}
+
+@online{qgaioctl,
+    title = "[Qemu-devel] [PATCH] qga: implement guest-file-ioctl",
+    url = "https://lists.gnu.org/archive/html/qemu-devel/2017-02/msg00035.html"
+}
+
+@online{windbgvm,
+    title = "Windows driver debugging with WinDbg and VMWare",
+    url = "https://briolidz.wordpress.com/2012/03/28/windows-driver-debugging-with-windbg-and-vmware/"
+}
+
+@online{kdbgenc,
+    title = "Volatility Labs: The Secret to 64-bit Windows 8 and 2012 Raw Memory Dump Forensics",
+    url = "https://volatility-labs.blogspot.com/2014/01/the-secret-to-64-bit-windows-8-and-2012.html"
 }
