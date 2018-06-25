@@ -30,8 +30,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%% Set up correct formatting %%%%%
-\geometry{left=2.5cm}
-\geometry{right=2.5cm}
+\geometry{left=3.0cm}
+\geometry{right=2.0cm}
 \geometry{top=2cm}
 \geometry{bottom=2cm}
 \onehalfspace
@@ -178,45 +178,59 @@
 \renewcommand{\titlepage}{%
     \pagestyle{empty}
     \begin{center}
-        {\bf Министерство образования и науки Российской Федерации \\
-        Московский физико-технический институт (государственный
-        университет) \\ }
-        \vspace{1cm}
-
-
+        {\bf Федеральное государственное автономное образовательное учреждение \\
+высшего образования \\
+«Московский физико-технический институт\\ (государственный университет)» \\ }
         \mtfacultytext \\
         \mtdepartmenttext \\
+        \vspace{1em}
+	\end{center}
 
-        \vspace{3em}
+    \begin{flushleft}
+Направление подготовки: 03.03.01 <<Прикладные математика и физика>>\\
+Направленность: Инфокоммуникационные и вычислительные системы и технологии\\
+Форма обучения: очная
+    \end{flushleft}
 
-        Выпускная квалификационная работа (бакалаврская работа)
+	\begin{flushright}
+        Допущен к ГИА\\
+		Руководитель учебного подразделения\\
+        \noindent\rule{5cm}{0.4pt}\\
+    \end{flushright}
 
-        Направление подготовки 03.03.01
-        <<Прикладные математика и физика>>
-    \end{center}
+	\begin{center}
+        \vspace{1cm}
 
-    \begin{center}
         \vspace{\fill}
-        \singlespacing
 
-        \LARGE \mttitletext{}
-
+        \begin{LARGE}
+        \mttitletext{}\\
+        \end{LARGE}
+        \vspace{1em}
+        Бакалаврская работа
+        \vspace{1.5cm}
         \vspace{\fill}
     \end{center}
 
 
     \begin{flushright}
-        Студент \mtgroupnumtext{} группы \\
+        Обучающийся\\
         \mtauthortext{} \\
+        \noindent\rule{5cm}{0.4pt}\\
+        \vspace{2em}
+        Научный консультант \\
+        Каган Роман Владимирович \\
+        \noindent\rule{5cm}{0.4pt} \\
         \vspace{2em}
         Научный руководитель \\
         \mtsupervisortext{} \\
+        \noindent\rule{5cm}{0.4pt}
     \end{flushright}
 
     \vspace{7em}
 
     \begin{center}
-        МФТИ \\
+        Москва
         \the\year{}
     \end{center}
 
